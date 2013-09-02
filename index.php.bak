@@ -145,7 +145,7 @@ function parsePageSignedRequest() {
 }
 if($signed_request = parsePageSignedRequest()) {
   if($signed_request->page->liked) {
-echo "liked". $user_id ;
+echo "user id". $user_id."  like";  ;
 }else{
 	 $user_id = $userInfo['id'];
  $user_name = $userInfo['name'];
